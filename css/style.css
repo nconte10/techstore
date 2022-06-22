@@ -1,0 +1,114 @@
+/*inicio hoja de estilos*/
+/*    border: 2px solid red; */
+*{  
+    /*linea para reiniciar estilos hoja css*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+/*header*/
+
+.titleContainer {
+    background-color: #0d1321;
+    color: #f0ebd8 ;
+
+}
+
+
+.navList a {
+    color: #f0ebd8;
+}
+
+
+/*fin header*/
+
+/*footer*/
+
+.footerContainer {
+
+    background-color: #748cab;
+}
+
+.formFooter{
+    border: 2px solid red;
+    text-align: center
+
+}
+
+.containerRedes {
+    border: 2px solid yellow;
+    justify-items: center;
+    padding-top: 10%;
+}
+
+
+/*fin de footer*/
+
+
+
+/* index main*/
+
+.mainRow{
+    background-color: #1d2d44;
+}
+
+.ingresos {
+    margin: 5rem 2rem 5rem 2rem;
+    padding: 1rem;
+    
+}
+
+/*fin index main*/
+
+/*index section*/
+
+.imgCointainer{
+    background-color: #3e5c76;
+}
+
+.imagenIndex {
+    
+    margin: 5rem ;
+    align-items: center;
+}
+
+.combosIndex{
+    max-width: 70%;
+    max-height: 25rem;
+}
+/*fin index section */
+
+/*audioVideo*/
+
+.audioContainer{
+    background-color: #1d2d44;
+
+}
+
+.audioDescription{
+    border: 2px solid red;
+    padding: 3rem;
+    color: #f0ebd8;
+
+}
+
+.audioInalambrico{
+    max-height: 40rem;
+
+}
+
+/*fin audioVideo*/
+
+/*empresas*/
+
+.empresasContainer{
+    background-color: #1d2d44;
+    color: #f0ebd8;
+    text-align: center;
+    padding: 3rem;
+}
