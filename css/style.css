@@ -54,10 +54,15 @@
     
 }
 
-.mainPrimerdiv {
+.indexFirst {
+    background-image: url(/img/pexels-anthony-170290.jpg);
+    background-repeat: repeat-y;
+    background-size:cover;
+    color: #f0ebd8;
     
-
 }
+
+
 
 .mainPromo {
    background-color: #748cab; 
@@ -79,9 +84,22 @@
 
 /*index section*/
 
-.imgCointainer{
-    background-color: #3e5c76;
+
+
+.imgCointainer{ 
+    background-image: url("/img/pexels-shonejai-1227515.jpg");
+    background-size: cover;
+    background-color: #1d2d44;
+    color: black;
+    text-align: center;
     padding: 2rem;
+}
+.indexSection{
+    background-color: #1d2d44;
+    color: black;
+    justify-content: center;
+    padding: 2rem;
+
 }
 
 .imagenIndex {
@@ -99,27 +117,19 @@
 /*audioVideo*/
 
 .audioContainer{
+    background-image: url(/img/pexels-daniel-reche-3721941.jpg);
+    background-repeat: repeat-y;
+    background-size:cover;
+    background-position-y:center;
+    color: #f0ebd8;
     background-color: #1d2d44;
 
 }
 
-.divCard img{
-    height: auto;
-    max-width: 100%;
-    
-}
 
-.audioDescription{
-    border: 2px solid red;
-    padding: 3rem;
-    color: #f0ebd8;
 
-}
 
-.audioInalambrico{
-    max-width: 100%;
 
-}
 
 /*fin audioVideo*/
 
@@ -127,7 +137,47 @@
 
 .empresasContainer{
     background-color: #1d2d44;
-    color: #f0ebd8;
+    color: black;
     text-align: center;
     padding: 3rem;
+}
+
+.empresaIndex{
+    background-image: url(/img/pexels-marc-mueller-380768.jpg);
+    background-repeat: repeat-y;
+    background-size:cover;
+    background-position-y:center;
+    color: #934709;
+    background-color: #1d2d44;
+
+
+}
+
+.rowEmpresa div {
+
+    color: #1d2d44;
+    justify-content: space-around;
+
+}
+.cartaEmpresas {
+    
+    border-radius: 7rem;
+    padding: 1rem;
+    
+    
+
+
+}
+
+
+.divCard img{
+    height: auto;
+    max-width: 100%;
+    
+}
+
+
+.accesoriosPromo {
+    border-radius: 1rem;
+    padding: 2rem;
 }
